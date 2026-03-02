@@ -1,0 +1,13 @@
+bin/
+obj/
+.DS_Store
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+*.nupkg
+*.snupkg
+TestResults/
+*.log
