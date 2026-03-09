@@ -19,3 +19,9 @@ public sealed class ToolsResponse
     [JsonPropertyName("tools")]
     public List<string>? Tools { get; set; }
 }
+
+public sealed class RatingsResponse
+{
+    [JsonPropertyName("ratings")]
+    public List<Rating>? Ratings { get; set; }
+}
